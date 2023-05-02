@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="DIYA, ROUTINE FOR PRODUCTIVESkin Care, Skin Care Routine Builder, Cleanse, Tone, Treat, Moisturize, Protect, RESULT">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="style-starter.css">
+<link rel="stylesheet" href="Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.6.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i">
+    
+    <script type="application/ld+json">{
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": ""
+  }</script>
+    
+    
+    
+   
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-918d"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="index.php"><h1 class="u-text u-text-default u-text-1">DIYA</h1></a>
+      </div></header>
+      <section class="u-align-center u-clearfix u-image u-image-tiles u-section-2" id="sec-9818" data-image-width="2656" data-image-height="3984">
+        <div class="u-clearfix u-sheet u-sheet-1">
+          <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+            <style></style>
+            <title></title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style> table {
+              border-collapse: collapse;
+              width: 100%;
+              margin-top: 20px;
+          }
+          th, td {
+              text-align: left;
+              padding: 8px;
+              border-bottom: 1px solid #ddd;
+          }
+          th {
+              background-color: #f2f2f2;
+          }
+          td{
+            background-color: antiquewhite;
+          }
+          </style><body>
+      <h1>Skin Care Routine Builder</h1>
+          <p>Build a personalized skin care routine by selecting the products you use.</p>
+          <form id="routine-builder">
+            <H2>SKIN TYPE </H2>
+              <label for="skintype">Skin type:</label>
+    <select id="skintype" >
+      <option value="">Select your skin type</option>
+      <option value="normal">Normal</option>
+      <option value="oily">Oily</option>
+      <option value="dry">Dry</option>
+      <option value="combination">Combination</option>
+    </select>
+    <h2>SKIN CONCERNS</h2>
+    <label for="skinconcerns">Skin concerns:</label>
+    <select id="skinconcerns" >
+      <option value="acne">Acne</option>
+      <option value="wrinkles">Wrinkles</option>
+      <option value="dark-spots">Dark spots</option>
+      <option value="dryness">Dryness</option>
+      <option value="sensitivity">Sensitivity</option>
+    </select>    
+<h2>WEATHER</h2>
+        <label for="weather"> weather type today: </label>
+<select id="weather">
+  <option value="">--Make a choice--</option>
+  <option value="sunny">Sunny</option>
+  <option value="rainy">Rainy</option>
+  <option value="snowing">Snowing</option>
+  <option value="overcast">Overcast</option>
+</select>
+
+<input type = "button" name = "generate" value = "generate" onclick="generator()"></td>
+</form>
+<br><br><br><hr>
+<table>
+  <tr>
+  <th>TIME</th>
+  <th>STEPS</th>
+  </tr>
+  <tr>
+  <th >A.M</th>
+  <td id="cl"></td>
+  </tr>
+
+  <tr> 
+    <th>P.M</th>
+    <td id="ton"></td>
+  </tr>
+  </table>
+
+  <h1 style="background-color: antiquewhite;">YOUR SKIN CARE REGIME</h1><BR><HR>
+    <BR>
+      <h3>YOUR SKIN TYPE</h3>
+      <b><h5 id="s"></h5></b>
+      <h5 id=""></h5>
+      <br>
+      <hr>
+      <h3>YOUR SKIN CONCERN</h3>
+      <b><h5 id="c"></h5></b><br><hr>
+      <h3>STEP - 1</h3>
+      <h5> Remove Makeup With Micellar Water</h5>
+      <p>Micellar water is powered by tiny micelles-oil molecules that act as a magnet to lift dirt, oil, and makeup up and away from the skin.</p>
+      <br>
+      <hr>
+      <h3>STEP - 2</h3>
+      <H5>Use A Facial Cleanser</H5>
+      <P>Oftentimes, you may find that one round of cleansing isn't enough-which is why you might want to consider double cleansing as part of your skincare routine </P><BR><HR>
+        <H3>STEP - 3</H3>
+        <H5>Apply A Toner</H5>
+        <P>Try a toner with salicylic acid as an active ingredient. Salicylic acid in skincare products helps improve your skin's overall appearance by gently pushing out dead skin cells, sebum, and other pore-clogging debris.</P><BR><HR>
+          <H3>STEP - 4</H3>
+          <H5>Finish With Moisturiser</H5>
+          <P>Apply a light, hydrating night cream or lotion to your face and neck as the last step in your daily skincare routine.</P><BR><HR>
+            <H3>STEP - 5</H3>
+            <H5>Top It Off With Eye Cream</H5>
+            <P>They're also essential for hydrating that delicate skin area and are a must-have for making you look bright-eyed. Opt for a gel-based one and pat it into the under-eye area with your ring fingers.</P><BR><HR>
+      <h3>WEATHER</h3>
+      <H5 id="demo"></H5></section>
+<script  type="text/javascript">
+function generator() 
+{
+
+var type = String(document.getElementById("skintype").value);
+var concern =String(document.getElementById("skinconcerns").value);
+var choice = String(document.getElementById("weather").value);
+  
+  var clean =document.getElementById("cl");
+  var toner =document.getElementById("ton");
+  var moist =document.getElementById("moi");
+  
+  var para = document.getElementById("demo");
+  var ski = document.getElementById("s");
+  var con = document.getElementById("c");
+
+  if (choice === 'sunny') {
+    para.innerHTML = 'It is nice and sunny outside today. Wear sunscreen and body lotion! Go to the beach, or the park, and get an ice cream.';
+  } else if (choice === 'rainy') {
+    para.innerHTML= 'Rain is falling outside; avoid heavy oily moisturizer, and don\'t stay out for too long.';
+  } else if (choice === 'snowing') {
+    para.innerHTML = 'The snow is coming down — apply toner to prevent frost hands! Best to stay in with a cup of hot chocolate, or go build a snowman.';
+  } else if (choice === 'overcast') {
+    para.innerHTML = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';
+  } else {
+    para.innerHTML = '';
+  }
+
+  if (type === 'normal') 
+{
+    ski.innerHTML = 'With no major skin concerns to tackle, it can be challenging to know where to begin when creating a skin care routine for normal skin.so follow out the recommende schedule to get started.';
+  } else if (type === 'oily') {
+    ski.innerHTML= 'Oily skin is one of the most common skin concerns.With the right skin care routine and products, these issues can be less of a problem.';
+  } else if (type === 'Dry') {
+    ski.innerHTML = 'Dealing with dry, dehydrated skin? Dont despair. Theres a skin care routine for that! Maybe your skin feels tight, scaly, flaky, or a combination of all three.';
+  } else if (type === 'combination') {
+    ski.innerHTML = 'Figuring out the best skin care routine for combination skin can feel a bit like youre going in circles.Theres no need to worry. It might not be easy, but its definitely possible to find a routine that softens dry patches and combats shininess.';
+  } else {
+    ski.innerHTML = '';
+  }
+
+  if (concern === 'acne') 
+{
+    con.innerHTML = 'A good acne skin care routine is essential when youre prone to breakouts. Your daily process can help your skin in the following ways:<br>Remove excess oil</br><br> Keep pores clear </br><br>Help blemishes heal more quickly</br>';
+  } else if (concern === 'wrinkles') {
+    con.innerHTML = 'Aging is inevitable, but skin wrinkles dont have to be. Here, discover the best skincare for wrinkles to help keep your skin looking its very best.';}
+    else if (concern === 'dark-spots') {
+    con.innerHTML = 'Darks spots and patches rank as one of the most common reasons that people who have darker skin tones see a dermatologist.Getting rid of hyperpigmentation begins with finding out why you get these dark spots or patches. If you can eliminate the cause, many spots will clear on their own ';}
+    else if (concern === 'dryness') {
+    con.innerHTML = 'Dry skin is one of the many skin care concerns that people deal with daily. If youve ever felt flaking, tightness or itchiness, then youve probably encountered it.';}
+    else {
+    con.innerHTML = '';
+  }
+  //............A M...........//
+
+  if ((type ==='oily')&&( ( concern=='acne')|| (concern =='wrinkles' )|| (concern == 'dark-spots')) ){
+    clean.innerHTML = 'oily skin require a fomming cream for cleansing that as exfoliating acids like salicylic and alpha-hydroxy which are must for healing cystic or severe acne. <br> toner from Neutrogena packs in clarifying ingredients like witch hazel and alpha and beta hydroxy acids, which actively work to minimize pores and reduce breakouts while also eliminating oil. <br> moisturiser that contains aloe vera gel, glycerin, or hyaluronic acid.';
+    toner.innerHTML = 'gentle charcoal cleanser. When used in skincare, charcoal can help absorb and remove excess oil from the skin.<br> toner- no required at night <br> moisturizer-Gel-based moisturizers ';
+    moist.innerHTML = 'moisturiser that contains aloe vera gel, glycerin, or hyaluronic acid.';
+  } else if ((type ==='dry')&&( ( concern=='acne')|| (concern =='wrinkles' )|| (concern == 'dark-spots')) ){
+    clean.innerHTML = 'face wash is fragrance-free, and it foams up when you use it. Its also loaded with emollient ingredients, including apricot kernel oil, glycerin, and squalane. Glycerin acts as a humectant and helps bind water to the skin, which increases hydration. <br> toner-This alcohol- paraben- and fragrance-free formula is the perfect pick for dry or sensitive skin types because it will keep the skin dreched, but also for acne-prone skin types with blemishes due to cucumbers anti-inflammatory and soothing properties. <br> moisturizer-Look for a moisturiser that contains aloe vera gel, glycerin, or hyaluronic acid.';
+    toner.innerHTML = 'cleanser-creamy, non-foaming face washes with barrier-boosting ingredients like ceramides, hyaluronic acid, and glycerin. <br> toner-acid-based toner over clean, dry skin every other night. <br> moisturizer- filled with all the things your body naturally produces and can use more of, like hyaluronic acid, lipids, and proteins';
+    moist.innerHTML = 'Look for a moisturiser that contains aloe vera gel, glycerin, or hyaluronic acid.';
+  }else if((type== 'normal')&&((concern== 'acne')|| (concern=='wrinkles')&&(concern=='dark-spots')&&(concern=='sensitivity'))){
+    clean.innerHTML = 'A gentle sulphate-free face wash for men and women, it cleanses without drying the skin out and Removes excess oil, dirt, grime, and pollution while keeping the skin barrier intact. <br> toner formulated with Prebiotics and Probiotics to balance skin microbiome and enhance natural defence barriers of the skin. Also boosted with multiple humectants for multi-level hydration. <br> moisture from the ceramides along with essential sunscreen protection thanks to the SPF 30.';
+    toner.innerHTML = 'cleanser-Try a gentle, creamy face wash filled with soothing colloidal oatmeal, aloe vera, and niacinamide.<br> toner-with 2% BHA (Beta hydroxy acid) to unclog & diminish enlarged pores, exfoliate dead skin cells, smooth wrinkles <br> moisturizer-cream formulas with salicylic acid at night';
+    moist.innerHTML = 'moisture from the ceramides along with essential sunscreen protection thanks to the SPF 30. ';
+  }else if((type== 'combination')&&((concern== 'acne')|| (concern=='wrinkles')&&(concern=='dark-spots'))){
+    clean.innerHTML = 'Cleanser works to detoxify and exfoliate, both unclogging pores that overproduce oil, and exfoliating dry areas. With 99% of ingredients from natural derivatives, volcanic ash, lactobacillus ferment filtrate, and pomegranate seed oil prove that natural ingredients come out on top every time!. <br> Toner which contains a turmeric cleanser, moringa skin toner, a skin oil, and a clary sage moisturizing lotion. This combination kit is very effective in removing the unevenness of the skin. <br> mosturizer cream that is enriched with Hyaluronic Acid and Vitamin E both of which are top contenders when it comes to hydration';
+    toner.innerHTML = 'cleanser-gel-based face washes or gentle foaming cleansers <br> toner- one filled with either BHA (beta hydroxy acid, like salicylic acid) or AHA (alpha hydroxy acid, like glycolic acid or lactic acid), <br> moisturizer-lightweight moisturizers in either a cream or gel-based formula to keep skin hydrated without feeling greasy.';
+    moist.innerHTML = 'mosturizer cream that is enriched with Hyaluronic Acid and Vitamin E both of which are top contenders when it comes to hydration';
+  }else{
+    clean.innerHTML= '';
+    toner.innerHTML='';
+    moist.innerHTML='';
+  }
+
+
+  //.............p.M..............//
+
+  if ((type ==='oily')&&( ( concern=='acne')|| (concern =='wrinkles' )|| (concern == 'dark-spots')) ){
+    toner.innerHTML = 'gentle charcoal cleanser. When used in skincare, charcoal can help absorb and remove excess oil from the skin.<br> toner- no required at night <br> moisturizer-Gel-based moisturizers';
+  } else if ((type ==='dry')&&( ( concern=='acne')|| (concern =='wrinkles' )|| (concern == 'dark-spots')) ){
+    toner.innerHTML = 'cleanser-creamy, non-foaming face washes with barrier-boosting ingredients like ceramides, hyaluronic acid, and glycerin. <br> toner-acid-based toner over clean, dry skin every other night. <br> moisturizer- filled with all the things your body naturally produces and can use more of, like hyaluronic acid, lipids, and proteins';
+  }else if((type== 'normal')&&((concern== 'acne')||(concern=='wrinkles')||(concern=='dark-spots')||(concern=='sensitivity'))){
+    toner.innerHTML = 'cleanser-Try a gentle, creamy face wash filled with soothing colloidal oatmeal, aloe vera, and niacinamide.<br> toner-with 2% BHA (Beta hydroxy acid) to unclog & diminish enlarged pores, exfoliate dead skin cells, smooth wrinkles <br> moisturizer-cream formulas with salicylic acid at night';
+  }else if((type== 'combination')&&((concern== 'acne')|| (concern=='wrinkles')||(concern=='dark-spots'))){
+    toner.innerHTML = 'cleanser-gel-based face washes or gentle foaming cleansers <br> toner- one filled with either BHA (beta hydroxy acid, like salicylic acid) or AHA (alpha hydroxy acid, like glycolic acid or lactic acid), <br> moisturizer-lightweight moisturizers in either a cream or gel-based formula to keep skin hydrated without feeling greasy.';
+  }else{
+    toner.innerHTML= '';
+    
+  }
+
+}
+
+
+
+</script>
+</body>
+</html>
